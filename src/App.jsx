@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 // --- Epoch Coffee Redesign: "You Belong Here ❤️" ---
 // Optimized with Real Verified Assets from EpochCoffee.com
@@ -467,6 +468,7 @@ const App = () => {
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
         </button>
       </footer>
+      <Analytics />
     </div>
   );
 };
