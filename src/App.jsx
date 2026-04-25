@@ -379,7 +379,7 @@ const App = () => {
             {/* Gallery Item 3 - Interior Detail */}
             <div className="aspect-square rounded-[3rem] overflow-hidden group relative">
               <img 
-                src="public/hero.png" 
+                src="/hero.png" 
                 alt="Austin Cafe Vibe" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
               />
